@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: gray;
+    transition: background-color 1s ease;
+}
+
+body.pulse {
+    background-color: #444;
+}
+
+.rollstuff1, .rollstuff2, .stars, .stars2 {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #005f5f;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
